@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif!important;
   /* The html and body elements cannot have any padding or margin. */
   /* border-top: 3px solid #27A822; */
 }
@@ -17,6 +17,14 @@ body {
   margin: 0 auto -65px;
   /* Pad bottom by footer height */
   /*padding: 0 0 60px;*/
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight:300!important;
+}
+
+strong {
+    font-weight:500!important;
 }
 
 /* Navbar
@@ -96,9 +104,13 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #335577;
+    color: #27A822;
 }
 .container a:hover {
+    color: #27A822;
+}
+.light {
+    color:#888888;
 }
 .img-responsive {
  display: block;
@@ -138,6 +150,12 @@ body {
 .social h4 > a {
   color: #000000;
 }
+
+.prefooter {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+
 .avatar {
   padding-top: 5%;
 }
@@ -160,7 +178,7 @@ body {
 .blogpost{
   text-align: left;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 /* Footer 
