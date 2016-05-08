@@ -1,7 +1,18 @@
 ---
-layout: page
+layout: home
 title: About
 ---
 
-{% include about.html %}
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+
+      {% include about.html %}
+
+	  {% include social.html %}
+
+	</div>
+</section>
 

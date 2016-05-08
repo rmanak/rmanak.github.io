@@ -1,11 +1,6 @@
 ---
 layout: post
 title: Another markdown full cheatsheet demo (Markdown)
-tags:
-- News
-- Tags
-- Blog
-- Post
 ---
 
 > This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.

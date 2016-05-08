@@ -1,5 +1,7 @@
 /* Main page with stikky-footer
 -------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+
 html,
 body {
   height: 100%;
@@ -152,7 +154,15 @@ strong {
 }
 
 .aboutpanel {
-    text-align:left;
+    text-align:justify;
+}
+
+
+.aboutpanel p {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #555555;
 }
 
 
@@ -182,8 +192,11 @@ strong {
 
 .blogpost{
   text-align: left;
-  line-height: 30px;
-  font-size: 15px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+
 }
 
 /* Footer 

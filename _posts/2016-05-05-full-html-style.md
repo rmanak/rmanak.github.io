@@ -1,11 +1,6 @@
 ---
 layout: post
 title:  A Full and Comprehensive Style Test (HTML)
-tags:
-- News
-- Tags
-- Blog
-- Post
 ---
 
 > This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
