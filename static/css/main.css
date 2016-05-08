@@ -94,6 +94,15 @@ strong {
   }
 }
 
+p {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight:500;
+  color: #333;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 
@@ -111,6 +120,9 @@ strong {
 .container a:hover {
     color: #27A822;
 }
+
+
+
 .light {
     color:#888888;
 }
@@ -211,10 +223,12 @@ strong {
 
 .blogpost{
   text-align: left;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
-    color: #444444;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight:500;
+  color: #333;
 
 }
 

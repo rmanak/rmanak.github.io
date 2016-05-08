@@ -6,7 +6,7 @@
   
   <link href="http://rmanak.github.io//"/>
   <id>http://rmanak.github.io//</id>
-  <updated>2016-05-07T19:54:05Z</updated>
+  <updated>2016-05-08T09:14:44Z</updated>
   <author>
     <name>Arman Akbarian</name>
     <email>arman2@gmail.com</email>
@@ -31,7 +31,7 @@
   <published>2016-05-06T00:00:00Z</published>
   <updated>2016-05-06T00:00:00Z</updated>
   <content type="html"><![CDATA[ <blockquote>
-  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the raw content of this file for the markdown usage.</p>
+  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the <a href="https://raw.githubusercontent.com/rmanak/rmanak.github.io/master/_posts/2016-05-06-markdown-cheatsheet.md">raw</a> content of this file for the markdown usage.</p>
 </blockquote>
 
 <h2 id="typography-elements-in-one">Typography Elements in One</h2>
@@ -221,7 +221,7 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
   <published>2016-05-05T00:00:00Z</published>
   <updated>2016-05-05T00:00:00Z</updated>
   <content type="html"><![CDATA[ <blockquote>
-  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the raw content of this file for the markdown usage.</p>
+  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the <a href="https://raw.githubusercontent.com/rmanak/rmanak.github.io/master/_posts/2016-05-05-full-html-style.md">raw</a> content of this file for the markdown usage.</p>
 </blockquote>
 
 <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
