@@ -3,7 +3,7 @@ layout: post
 title: Another markdown full cheatsheet demo (Markdown)
 ---
 
-> This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
+> This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the [raw](https://raw.githubusercontent.com/rmanak/rmanak.github.io/master/_posts/2016-05-06-markdown-cheatsheet.md) content of this file for the markdown usage.
 
 ## Typography Elements in One
 

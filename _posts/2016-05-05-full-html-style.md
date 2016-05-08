@@ -3,7 +3,7 @@ layout: post
 title:  A Full and Comprehensive Style Test (HTML)
 ---
 
-> This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
+> This is Markdown Cheatsheet Demo for **Sustain**, this Jekyll theme. Please check the [raw](https://raw.githubusercontent.com/rmanak/rmanak.github.io/master/_posts/2016-05-05-full-html-style.md) content of this file for the markdown usage.
 
 <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 
