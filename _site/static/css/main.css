@@ -151,6 +151,11 @@ strong {
   color: #000000;
 }
 
+.aboutpanel {
+    text-align:left;
+}
+
+
 .prefooter {
   padding-top: 12px;
   word-spacing: 25px;
