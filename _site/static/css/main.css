@@ -168,8 +168,27 @@ strong {
 
 .prefooter {
   padding-top: 12px;
-  word-spacing: 25px;
 }
+
+.prefooter a{
+    display:inline-block;
+    padding:20px;
+    color: #555555;
+}
+
+.prefooter a:hover {
+    color: #111111;
+}
+
+
+.social a {
+    color: #555555!important;
+}
+
+.social a:hover {
+    color: #111111!important;
+}
+
 
 .avatar {
   padding-top: 5%;
