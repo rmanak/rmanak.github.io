@@ -1,6 +1,7 @@
 /* Main page with stikky-footer
 -------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
 
 html,
 body {
@@ -53,6 +54,7 @@ strong {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #6b6b6b;
+  text-decoration: underline;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #6b6b6b;
@@ -115,7 +117,8 @@ p {
   margin: 20px 0;
 }
 .container a {
-    color: #27A822;
+    color: rgb(85,175,82);
+
 }
 .container a:hover {
     color: #27A822;
@@ -183,13 +186,17 @@ p {
 }
 
 .prefooter a{
+    font-family: inherit;
+    font-weight: 300;
+    font-size:18px;
     display:inline-block;
     padding:20px;
-    color: #555555;
+    color: #777;
 }
 
 .prefooter a:hover {
-    color: #111111;
+    color: #000;
+    text-decoration:none;
 }
 
 
