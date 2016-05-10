@@ -1,6 +1,8 @@
 # top level stuff you probably don't need to touch
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
 #rdiscount:
 #  extensions: [smart]
 permalink: /:title.html
@@ -28,6 +30,6 @@ linkedin: armanakbarian
 # disqus: username
 #google_analytics: UA-69391421-1
 
-
+include: ['_pages']
 # needed for travis-ci build
 exclude: [vendor]
