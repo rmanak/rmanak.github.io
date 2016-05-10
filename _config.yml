@@ -30,6 +30,6 @@ linkedin: armanakbarian
 # disqus: username
 #google_analytics: UA-69391421-1
 
-include: ['_pages']
+#include: ['_pages']
 # needed for travis-ci build
 exclude: [vendor]
