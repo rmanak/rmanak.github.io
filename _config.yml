@@ -33,3 +33,4 @@ linkedin: armanakbarian
 #include: ['_pages']
 # needed for travis-ci build
 exclude: [vendor]
+include: ['_pages']
