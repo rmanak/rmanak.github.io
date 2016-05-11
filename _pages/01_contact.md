@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-This is contact
+{% include contact.html %}
