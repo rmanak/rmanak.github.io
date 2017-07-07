@@ -30,6 +30,7 @@ linkedin: armanakbarian
 # Comment out if you don't want disqus 
 # disqus: username
 #google_analytics: UA-69391421-1
+work: Aida
 
 #include: ['_pages']
 # needed for travis-ci build
