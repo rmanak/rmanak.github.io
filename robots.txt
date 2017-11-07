@@ -1,4 +1,5 @@
-sitemap: http://www.akbarian.org/sitemap.xml 
-User-agent: * 
+sitemap: http://www.akbarian.org/sitemap.xml
+User-agent: *
 Allow: /
 Disallow: /resume/
+
