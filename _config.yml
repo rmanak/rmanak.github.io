@@ -15,19 +15,19 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://rmanak.github.io/
 hosturl: http://www.akbarian.org/
-baseurl: /
+baseurl: http://www.akbarian.org/
 title: Arman Akbarian
 author: Arman Akbarian
 description: Personal website and resume
 avatar: profile.jpg
 email: arman2@gmail.com
 github: rmanak # username
-#facebook: armanphotography 
+#facebook: armanphotography
 instagram: rmanakb
 #twitter: username
 linkedin: armanakbarian
 #stackoverflow: username   #e.g: users/2735833/proton1h1
-# Comment out if you don't want disqus 
+# Comment out if you don't want disqus
 # disqus: username
 #google_analytics: UA-69391421-1
 work: Aida
