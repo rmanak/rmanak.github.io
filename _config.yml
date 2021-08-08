@@ -18,19 +18,19 @@ hosturl: https://rmanak.github.io/
 baseurl: https://rmanak.github.io/
 title: Arman Akbarian
 author: Arman Akbarian
-description: Personal website and resume
+description: Personal website
 avatar: profile.jpg
-email: arman2@gmail.com
+# email: arman2@gmail.com
 github: rmanak # username
-#facebook: armanphotography
+# facebook: armanphotography
 instagram: rmanakb
-#twitter: username
+twitter: aarman
 linkedin: armanakbarian
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 # Comment out if you don't want disqus
 # disqus: username
 #google_analytics: UA-69391421-1
-work: Aida
+# work: Aida
 
 #include: ['_pages']
 # needed for travis-ci build
