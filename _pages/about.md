@@ -23,8 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-### Hello!
-
 I am currently a senior applied scientist in Amazon. Previous, I worked as a senior data scientist at Lyft
 focusing on applications of NLP and machine learning in community and road safety, support as well as
 applications of deep learning in spatio-temporal demand forecasting. Before Lyft, I was the co-founder and
