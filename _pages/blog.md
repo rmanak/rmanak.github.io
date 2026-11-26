@@ -118,7 +118,7 @@ pagination:
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% if site.show_post_tags == false %}{% assign tags = "" %}{% else %}{% assign tags = post.tags | join: "" %}{% endif %}
-    {% assign categories = post.categories | join: "" %}
+    {% if site.show_post_categories == false %}{% assign categories = "" %}{% else %}{% assign categories = post.categories | join: "" %}{% endif %}
 
     <li>
 

@@ -350,7 +350,8 @@ jekyll-archives:
 
 show_post_tags: false # hide the #tag list on posts and in the blog post list (tags stay in front matter)
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+show_post_categories: false # hide the category list on posts and in the blog post list (categories stay in front matter)
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

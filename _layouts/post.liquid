@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign year = page.date | date: '%Y' %}
 {% if site.show_post_tags == false %}{% assign tags = '' %}{% else %}{% assign tags = page.tags | join: '' %}{% endif %}
-{% assign categories = page.categories | join: '' %}
+{% if site.show_post_categories == false %}{% assign categories = '' %}{% else %}{% assign categories = page.categories | join: '' %}{% endif %}
 {% assign url_beginning = page.url | slice: 0, 6 %}
 
 {% if page._styles %}
