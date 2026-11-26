@@ -1,0 +1,10 @@
+---
+version: 1
+overrides:
+  _layouts/post.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/post.liquid
+    upstream_sha256: b70376c20e97692e319650efd8db6e224439f4ea3257bc32a04b3299d54ad94b
+    local_sha256: e31eb1c089dfc826ead54df6dbbb24a801f5fe88dcb38e344187b86477531a15
+    acknowledged_at: "2026-11-26"

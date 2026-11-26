@@ -42,7 +42,6 @@ few-shot learning capabilities. I am finishing the AI graduate program at Stanfo
 [ubc]: http://laplace.phas.ubc.ca/People/arman/
 [photo]: https://www.instagram.com/rmanakb/
 
-
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 /* Built-in Sass modules you’ll likely use across partials */
@@ -10,7 +11,7 @@
 /* Configure your design tokens BEFORE loading any of your partials.
    Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
 @use "variables" with (
-  $max-content-width: {{ site.max_width | default:  "930px" }},
+  $max-content-width: {{site.max_width | default: "930px"}},
   $purple-color: rgb(85, 175, 82) // green links from the old site (replaces al-folio pink #b509ac)
 );
 
