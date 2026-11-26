@@ -32,3 +32,54 @@
 @use "tabs";
 @use "teachings";
 @use "typograms";
+
+// Inline code: keep the light-green background, but use normal text color instead of the theme green
+:not(pre) > code {
+  color: var(--global-text-color);
+}
+
+// Sidebar TOC lives in the page margin instead of eating into the post width.
+// Stock al-folio puts the TOC in a col-sm-3 inside the 930px container (post shrinks to col-sm-9).
+// On screens wide enough for the margin to hold it, pull the TOC column out of flow into the
+// left (or right) white space and let the post keep its full, centered width.
+// Breakpoint ≈ container (930px) + 2 × (TOC width 220px + gap) — below it the stock layout applies.
+$toc-margin-width: 220px;
+$toc-margin-gap: 1.5rem;
+
+@media (min-width: 1420px) {
+  .container > .row:has(#toc-sidebar) {
+    position: relative;
+
+    > .col-sm-9 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    > .col-sm-3 {
+      position: absolute;
+      top: 0;
+      bottom: 0; // full post height, so the sticky TOC keeps following the scroll
+      width: $toc-margin-width;
+      max-width: none;
+      padding: 0;
+
+      &:first-child {
+        // toc: sidebar: left
+        right: 100%;
+        margin-right: $toc-margin-gap;
+      }
+
+      &:last-child {
+        // toc: sidebar: right
+        left: 100%;
+        margin-left: $toc-margin-gap;
+      }
+    }
+  }
+}
+
+// Slightly larger body text (theme default is 1rem = 16px)
+body {
+  font-size: 1.06rem;
+  line-height: 1.65;
+}
