@@ -348,6 +348,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
+show_post_year: false # hide the calendar-year link on posts and in the blog post list
 show_post_tags: false # hide the #tag list on posts and in the blog post list (tags stay in front matter)
 display_tags: [] # these tags will be displayed on the front page of your blog
 show_post_categories: false # hide the category list on posts and in the blog post list (categories stay in front matter)

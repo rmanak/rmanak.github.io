@@ -84,9 +84,12 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      {{ read_time }} min read
+                      {% unless site.show_post_year == false %}
+                      &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+                      {% endunless %}
                     </p>
                   </div>
                 </div>
@@ -148,8 +151,10 @@ pagination:
         {% endif %}
       </p>
       <p class="post-tags">
+        {% unless site.show_post_year == false %}
         <a href="{{ year | prepend: '/blog/' | relative_url }}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+        {% endunless %}
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
