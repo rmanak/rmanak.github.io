@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rmanak.github.io/sitemap.xml
